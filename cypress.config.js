@@ -1,5 +1,6 @@
 const { defineConfig } = require("cypress");
 const { connect } = require("./cypress/support/mongo");
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 require('dotenv').config()
 
@@ -7,6 +8,7 @@ module.exports = defineConfig({
   e2e: {
     async setupNodeEvents(on, config) {
       // implement node event listeners here
+      allureWriter(on, config);
       const db = await connect();
 
       on("task", {
@@ -29,9 +31,14 @@ module.exports = defineConfig({
           return null
         }
       });
+
+      return config
     },
     baseUrl: process.env.BASE_URL,
     video: false,
-    screenshotOnRunFailure: false
+    screenshotOnRunFailure: false,
+    env: {
+      allure: true
+    }
   },
 });

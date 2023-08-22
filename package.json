@@ -16,6 +16,8 @@
   "author": "Wesley Barros",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.23.1",
     "cypress": "^12.17.4",
     "cypress-plugin-api": "^2.11.1",
     "dotenv": "^16.3.1",
