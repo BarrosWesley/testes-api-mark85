@@ -1,0 +1,30 @@
+{
+    "create": {
+        "user": {
+            "name": "Sr Barros",
+            "email": "srbarros@teste.com",
+            "password": "pwd123"
+
+        },
+        "tasks": {
+            "name": "pagar fatura do meu cartão",            
+            "tags": [
+                "nubank",
+                "Itau",
+                "PicPay"
+            ]
+            
+        }
+    },
+    "dup": {
+        "user": {
+            "name": "Jim Grey",
+            "email": "fenix@xmen.com",
+            "password": "pwd123"
+
+        },
+        "tasks": {
+            "name": "pagar fatura do meu cartão"            
+        }
+    }
+}

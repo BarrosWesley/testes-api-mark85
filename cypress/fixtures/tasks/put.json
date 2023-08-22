@@ -1,0 +1,28 @@
+{
+    "update": {
+        "user": {
+            "name": "Steven Jobs",
+            "email": "jobs@next.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "Construir um novo SO da Next",
+            "tags": [
+                "ark",
+                "nanotec",
+                "teias"
+            ]
+            
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "Steve Woz",
+            "email": "woz@apple.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "Construir o primeiro Apple"
+        }
+    }
+}

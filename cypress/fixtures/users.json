@@ -1,0 +1,31 @@
+{
+    "login": {
+        "name": "Jennifer Aniston",
+        "email": "jenniferAniston@teste.com",
+        "password": "pwd123"
+    },
+    "inv_pass": {
+        "email": "jenniferAniston@teste.com",
+        "password": "passwordInvalid"
+    },
+    "email_404": {
+        "email": "teste404email@teste.com",
+        "password": "123456"
+    },
+    "register": {
+        "name": "Wesley Barros",
+        "email": "barros@teste.com",
+        "password": "pwd123"
+    },
+    "dup_email": {
+      "name": "Carlos Gama",
+      "email": "carlos@teste.com",
+      "password": "pwd123"
+    },
+    "required": {
+        "name": "Barros Dblack",
+        "email": "barrosdblack@teste.com",
+        "password": "pwd123"
+    }
+
+}
